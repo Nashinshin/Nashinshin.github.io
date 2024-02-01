@@ -1,0 +1,40 @@
+.cards{
+    margin: 0;
+    background-color: #13171c;
+    background-image: url("/Assets/doodleitemsbackground.png");
+    font-family: "Poppins", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(57, 62, 70, 0.50);
+    border-radius: 16px;
+    color: white;
+    height: 469px;
+    width: 322px;
+    padding: 42px 29px;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+@media (min-width: 960px){
+    .card-image{
+        width: 265px;
+        height: 158px;
+    }
+    .cards{
+        display: flex;
+        padding: 50px;
+    }
+}
+
+.card-title{
+    font-size: 32px;
+}
+
+p{
+    margin: 0;
+}

@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box
+}
+
+body{
+    margin: 0;
+    background-color: #13171c;
+    background-image: url("/Assets/doodleitemsbackground.png");
+    font-family: "Poppins", sans-serif;
+}
+
+.intro-container{
+    height: 704px;
+    background-color: #13171c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (min-width: 960px){
+    .title-intro-container{
+        text-align: center;
+    }
+
+    .intro-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.service-white-p{
+    color: white;
+}
+
+.service-lightblue-p{
+    color: #00adb5;
+}
+
+.service-image{
+    width: 219px;
+    height: 211px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(57, 62, 70, 0.50);
+    border-radius: 16px;
+    color: white;
+    height: 469px;
+    width: 322px;
+    padding: 42px 29px;
+    font-size: 16px;
+    gap: 25px;
+    margin: 20px auto;
+}
+
+
+@media (min-width: 960px){
+    .card-image{
+        width: 265px;
+        height: 158px;
+    }
+    .cards{
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.card-title{
+    font-size: 32px;
+}
+
+p{
+    margin: 0;
+}
+
+.footer{
+    background-color: #13171c;
+}

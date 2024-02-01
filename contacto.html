@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+
+    <!-- contacto container -->
+    <script defer src="/pages/contacto.js"></script>
+    <link rel="stylesheet" href="/pages/contacto.css" />
+    
+    <!-- header container -->
+    <script src="/components/header.js"></script>
+    <link rel="stylesheet" href="/components/header.css" />
+
+    <!-- footer container -->
+    <script src="/components/footer.js"></script>
+    <link rel="stylesheet" href="/components/footer.css" />
+
+  </head>
+  <body>
+    <header class="contact-header"></header>
+    <form action="" class="contact-form">
+        <h2 class="write-me">Escribime</h2>
+        <div class="inputs-and-texts">
+          <div class="text-inputs">
+        <div class="form-name-container">
+          <p class="form-name-text">Nombre</p>
+          <input type="text" placeholder="Tu nombre" class="form-name-input">
+        </div>
+        <div class="form-email-container">
+          <p class="form-email-text">Email</p>
+          <input type="text" placeholder="Tu@mail.com" class="form-email-input">
+        </div>
+          </div>
+        <div class="form-message-container">
+          <p class="form-message-text">Mensaje</p>
+          <textarea class="form-message-textarea" cols="30" rows="10"></textarea>
+        </div>
+        <button class="form-button">Enviar</button>
+        </div>
+      </form>
+    <footer class="contact-footer"></footer>
+  </body>
+</html>

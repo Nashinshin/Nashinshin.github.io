@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  background-color: #0f1113;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 121px;
+  border-bottom: 2px white solid;
+}
+
+.header__burguer {
+  height: 40px;
+  width: 40px;
+  margin: 15px;
+}
+
+@media (min-width: 960px) {
+  .header__burguer {
+    display: none;
+  }
+
+  .header{
+    width: 100%;
+  }
+}
+
+.burger-menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #13171c;
+  gap: 45px;
+  display: none;
+}
+
+.burger__link {
+  font-family: "Poppins";
+  font-size: 42px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+
+.burger-x {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  z-index: 2;
+}
+
+.template__links {
+  display: none;
+}
+
+.header-with-no-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+@media (min-width: 960px) {
+  .template__links {
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+    align-items: center;
+    font-size: 24px;
+  }
+  }
+
+
+.template__portfolio, .template__service, .template__contact {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+}
+
+.template__logo {
+  width: 60px;
+  height: 60px;
+  margin: 0 15px;
+}

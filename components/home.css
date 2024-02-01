@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  p {
+    margin: 0px;
+  }
+  
+  .introduction-container {
+    background-color: #13171c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding: 70px 45px 164px 45px;
+  }
+  
+  @media (min-width: 960px) {
+    .introduction-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .introduction-text {
+      text-align: left;
+      margin: 0;
+    }
+  
+    .introduction-text-iam-name {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+    }
+  }
+  
+  .introduction-text-hello {
+    color: white;
+  }
+  
+  .introduction-text-name,
+  .introduction-text-iam {
+    color: #00adb5;
+  }
+  
+  .introduction-image {
+    width: 219px;
+    height: 211px;
+    margin-top: 30px;
+  }
+  
+  .presentation-container {
+    background-color: #192130;
+    padding-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 112px;
+    align-items: center;
+  }
+  
+  @media (min-width: 960px) {
+    .presentation-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-top: 180px;
+      padding-bottom: 180px;
+      align-items: center;
+    }
+  
+    .presentation-text{
+      width: 389px ;
+    }
+  }
+  
+  .presentation-text{
+      display: flex;
+      flex-direction: column ;
+      padding-left: 45px;
+      padding-right: 45px;
+  }
+  
+  .presentation-image{
+      height: 241px;
+      width: 295px;
+      margin-top: 40px;
+  }
+  
+  
+  .presentation-text-iam {
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+  
